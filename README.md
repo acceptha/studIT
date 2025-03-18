@@ -19,7 +19,7 @@
 <details>
   <summary><ins>TCP와 UDP의 각각의 기능과 차이점 대해서 설명해보세요.</ins></summary>
   </br>
-      <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/2주차/tcp vs udp.md">TCP vs UDP</a></p>
+      <p><a href="./network/tcp_udp.md">TCP vs UDP</a></p>
 </details>
 
 <details>
