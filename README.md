@@ -10,18 +10,9 @@
 
 ### 네트워크
 
-<details>
-  <summary><ins>웹 통신의 큰 흐름: https://www&#46;google&#46;com/ 을 접속할 때 일어나는 일</ins></summary>
-  </br>
-    <p><a href="./network/connect_url.md">url 접속의 흐름</a></p>
-</details>
-
-<details>
-  <summary><ins>TCP와 UDP의 각각의 기능과 차이점 대해서 설명해보세요.</ins></summary>
-  </br>
-      <p><a href="./network/tcp_udp.md">TCP vs UDP</a></p>
-</details>
-
+- <a href="./network/connect_url.md">웹 통신의 큰 흐름: https&#58;//www&#46;google&#46;com/ 을 접속할 때 일어나는 일</a>
+- <a href="./network/tcp_udp.md">TCP와 UDP의 각각의 기능과 차이점 대해서 설명해보세요.</a>
+- <a href="./network/osi7_tcpIp.md">OSI 7계층과 TCP/IP 4계층에 대해 설명해보세요.</a>
 <details>
   <summary><ins>RESTful과 GRAPHQL이란 무엇인지 + gRPC와 RESTful API의 차이점은 무엇인가요?</ins></summary>
   </br>
@@ -32,12 +23,6 @@
   <summary><ins>CORS란 무엇이며 이것에 대해서 설명해보세요.</ins></summary>
   </br>
       <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/5주차/cors.md">CORS</a></p>
-</details>
-
-<details>
-  <summary><ins>OSI7계층과 TCP/IP 4계층에 대해 설명해보세요.</ins></summary>
-  </br>
-    <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/3주차/osi7_tcp_ip.md">osi <-> tcp/ip</a></p>
 </details>
 
 <details>
