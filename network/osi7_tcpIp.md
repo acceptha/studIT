@@ -49,7 +49,7 @@ OSI 7 계층과 TCP/IP 4계층에 대해 설명해보세요.
 
 - 데이터의 단위는 Packet
 - 전송 주소는 IP
-- IP를 이용하여 Host와 Networkf를 논리적으로 구분
+- IP를 이용하여 Host와 Network를 논리적으로 구분
 - 라우팅 프로토콜으로 최적의 경로 선택하여 데이터 전송 
 
 ![Layer Data Flow](img/layer_dataFlow.png)
@@ -66,7 +66,7 @@ OSI 7 계층과 TCP/IP 4계층에 대해 설명해보세요.
 
 ## Transport vs Transport
 
-- 데이터 단위는 세크먼트
+- 데이터 단위는 세그먼트
 - 전송 주소는 Port
 - 신뢰성 있는 데이터를 전달을 담당하는 계층
 - TCP/UDP 가 해당 계층에 존재

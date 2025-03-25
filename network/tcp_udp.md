@@ -18,7 +18,7 @@ TCP와 UDP의 각각의 기능과 차이점 대해서 설명해보세요.
 4. 혼잡 제어(Congestion control)
   - 네트워크 혼잡을 감지하여 전송 속도를 조절
   - 네트워크 성능을 최적화 
-  - https://velog.io/@nnnyeong/Network-TCP-%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4-Congestion-Control
+  - [TCP 혼잡제어](https://velog.io/@nnnyeong/Network-TCP-%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4-Congestion-Control)
 5. 오류 검출 및 수정(Error detection and correction)
   - 각 데이터 패킷에 체크섬 포함
   - 데이터의 무결성 확인 및 오류 감지
@@ -171,8 +171,6 @@ TCP와 UDP의 각각의 기능과 차이점 대해서 설명해보세요.
 | 속도       | 상대적으로 느림           | 상대적으로 빠름       |
 | 오버헤드     | 많은 오버헤드로 복잡        | 단순하며 오버헤드가 적음  | 
 | 패킷 교환 방식 | 가상 회선 방식           | 데이터그램 방식       |
-
-![tcpvsudp.png](../img/tcpvsudp.png)
 
 ---
 
