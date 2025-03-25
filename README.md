@@ -13,6 +13,8 @@
 - <a href="./network/connect_url.md">웹 통신의 큰 흐름: https&#58;//www&#46;google&#46;com/ 을 접속할 때 일어나는 일</a>
 - <a href="./network/tcp_udp.md">TCP와 UDP의 각각의 기능과 차이점 대해서 설명해보세요.</a>
 - <a href="./network/osi7_tcpIp.md">OSI 7계층과 TCP/IP 4계층에 대해 설명해보세요.</a>
+- <a href="./network/routing_web.md">라우팅 기능 및 웹 서버 소프트웨어(Apache, Nginx)는 OSI 7계층 중 어디서 작동하는지 설명해보세요.</a>
+
 <details>
   <summary><ins>RESTful과 GRAPHQL이란 무엇인지 + gRPC와 RESTful API의 차이점은 무엇인가요?</ins></summary>
   </br>
@@ -23,18 +25,6 @@
   <summary><ins>CORS란 무엇이며 이것에 대해서 설명해보세요.</ins></summary>
   </br>
       <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/5주차/cors.md">CORS</a></p>
-</details>
-
-<details>
-  <summary><ins>웹 서버 소프트웨어(Apache, Nginx)는 OSI 7계층 중 어디서 작동하는지 설명해보세요.</ins></summary>
-  </br>
-    <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/3주차/웹서버동작계층.md">웹 서버 동작 계층</a></p>
-</details>
-
-<details>
-  <summary><ins>웹 서버 소프트웨어(Apache, Nginx)의 서버 간 라우팅 기능은 OSI 7계층 중 어디서 작동하는지 설명해보세요.</ins></summary>
-  </br>
-  <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/3주차/라우팅 동작개념.md">라우팅 동작개념</a></p>
 </details>
 
 <details>
