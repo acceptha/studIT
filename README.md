@@ -14,6 +14,9 @@
 - <a href="./network/tcp_udp.md">TCP와 UDP의 각각의 기능과 차이점 대해서 설명해보세요.</a>
 - <a href="./network/osi7_tcpIp.md">OSI 7계층과 TCP/IP 4계층에 대해 설명해보세요.</a>
 - <a href="./network/routing_web.md">라우팅 기능 및 웹 서버 소프트웨어(Apache, Nginx)는 OSI 7계층 중 어디서 작동하는지 설명해보세요.</a>
+- <a href="./network/websocket.md">웹 소켓(WebSocket)이란 무엇이며, 언제 사용하나요?</a>
+
+  <summary><ins>공인(public) IP와 사설(private) IP의 차이에 대해 설명해주세요.</ins></summary>
 
 <details>
   <summary><ins>RESTful과 GRAPHQL이란 무엇인지 + gRPC와 RESTful API의 차이점은 무엇인가요?</ins></summary>
@@ -31,18 +34,6 @@
   <summary><ins>쿠키(Cookie)와 세션(Session)의 차이점에 대해 말해주세요.</ins></summary>
   </br>
     <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/7주차/cookie_session.md">쿠키와 세션</a></p>
-</details>
-
-<details>
-  <summary><ins>공인(public) IP와 사설(private) IP의 차이에 대해 설명해주세요.</ins></summary>
-  </br>
-  <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/4주차/ip.md">IP</a></p>
-</details>
-
-<details>
-  <summary><ins>웹 소켓(WebSocket)이란 무엇이며, 언제 사용하나요?</ins></summary>
-  </br>
-    <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/4주차/websocket.md">웹 소켓</a></p>
 </details>
 
 <details>
