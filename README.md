@@ -4,24 +4,23 @@
 
 백엔드에대한 전반적인 기초지식향상과 면접준비를위한 스터디입니다.
 
-## 스터디 방식
+# CS 관련 지식
 
-## CS 관련 지식
-
-### 네트워크
+## 네트워크
 
 - <a href="./network/connect_url.md">웹 통신의 큰 흐름: https&#58;//www&#46;google&#46;com/ 을 접속할 때 일어나는 일</a>
 - <a href="./network/tcp_udp.md">TCP와 UDP의 각각의 기능과 차이점 대해서 설명해보세요.</a>
 - <a href="./network/osi7_tcpIp.md">OSI 7계층과 TCP/IP 4계층에 대해 설명해보세요.</a>
 - <a href="./network/routing_web.md">라우팅 기능 및 웹 서버 소프트웨어(Apache, Nginx)는 OSI 7계층 중 어디서 작동하는지 설명해보세요.</a>
 - <a href="./network/websocket.md">웹 소켓(WebSocket)이란 무엇이며, 언제 사용하나요?</a>
-
-  <summary><ins>공인(public) IP와 사설(private) IP의 차이에 대해 설명해주세요.</ins></summary>
+- <a href="./network/ip.md">공인(public) IP와 사설(private) IP의 차이에 대해 설명해주세요.</a>
+- <a href="./network/cdn.md">CDN(Content Delivery Network)이란 무엇이며, 왜 사용하나요?</a>
+- <a href="./network/cdn.md">상태 비저장(stateless) 프로토콜이란 무엇인가요?</a>
 
 <details>
-  <summary><ins>RESTful과 GRAPHQL이란 무엇인지 + gRPC와 RESTful API의 차이점은 무엇인가요?</ins></summary>
+  <summary><ins>쿠키(Cookie)와 세션(Session)의 차이점에 대해 말해주세요.</ins></summary>
   </br>
-    <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/7주차/restful_graphql_grpc.md">REST와 GraphQL, gRPC</a></p>
+    <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/7주차/cookie_session.md">쿠키와 세션</a></p>
 </details>
 
 <details>
@@ -31,39 +30,15 @@
 </details>
 
 <details>
-  <summary><ins>쿠키(Cookie)와 세션(Session)의 차이점에 대해 말해주세요.</ins></summary>
+  <summary><ins>RESTful과 GRAPHQL이란 무엇인지 + gRPC와 RESTful API의 차이점은 무엇인가요?</ins></summary>
   </br>
-    <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/7주차/cookie_session.md">쿠키와 세션</a></p>
+    <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/7주차/restful_graphql_grpc.md">REST와 GraphQL, gRPC</a></p>
 </details>
 
-<details>
-  <summary><ins>CSRF(Cross-Site Request Forgery)와 XSS(Cross-Site Scripting)의 차이점과 방지 방법에 대해 설명해주세요.</ins></summary>
-  </br>
-      <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/5주차/xss_csrf.md">CSRF(Cross-Site Request Forgery)와 XSS(Cross-Site Scripting)</a></p>
-</details>
+- 프론트엔드와 백엔드의 차이에 대해 설명해주세요.
+- 참고자료: [유튜버 쉬운코드 네트워크](https://www.youtube.com/watch?v=oFKYzp6gGfc&list=PLcXyemr8ZeoSGlzhlw4gmpNGicIL4kMcX) 
 
-<details>
-  <summary>프론트엔드와 백엔드의 차이에 대해 설명해주세요.</summary>
-  </br>
-</details>
-
-<details>
-  <summary><ins>상태 비저장(stateless) 프로토콜이란 무엇인가요?</ins></summary>
-  </br>
-  <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/6주차/상태비저장.md">상태 비저장</a></p>
-</details>
-
-<details>
-  <summary><ins>CDN(Content Delivery Network)이란 무엇이며, 왜 사용하나요?</ins></summary>
-  </br>
-  <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/6주차/CDN.md">CDN</a></p>
-</details>
-
-#### 네트워크 관련자료 출처및 유용한 영상출처
-
-[유튜버 쉬운코드 네트워크](https://www.youtube.com/watch?v=oFKYzp6gGfc&list=PLcXyemr8ZeoSGlzhlw4gmpNGicIL4kMcX)
-
-### 운영체제
+## 운영체제
 
 <details>
   <summary><ins>프로세스에 대해 설명.</ins></summary>
@@ -159,7 +134,7 @@
   </br>
 </details>
 
-### 데이터베이스
+## 데이터베이스
 
 <details>
   <summary><ins>데이터베이스에서 인덱스를 사용하는 이유 및 장단점 그리고 알고리즘에 대해 설명해주세요.</ins></summary>
@@ -250,7 +225,7 @@
   </br>
 </details>
 
-### 자료구조/알고리즘
+## 자료구조/알고리즘
 
 보통의 자료구조/알고리즘적 지식은 코딩테스트로 검증합니다.  
 하지만 아래의 개념을 적어도 이해는 한다고 생각하니, 혹시 모르는 부분이 있을 경우 학습을 권장합니다.
@@ -316,7 +291,13 @@
   <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/자료구조/11_동적프로그래밍.md">동적프로그래밍</a></p>
 </details>
 
-### 암호학/보안(간단한 정도)
+## 암호학/보안(간단한 정도)
+
+<details>
+  <summary><ins>CSRF(Cross-Site Request Forgery)와 XSS(Cross-Site Scripting)의 차이점과 방지 방법에 대해 설명해주세요.</ins></summary>
+  </br>
+      <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/5주차/xss_csrf.md">CSRF(Cross-Site Request Forgery)와 XSS(Cross-Site Scripting)</a></p>
+</details>
 
 <details>
   <summary>비대칭키 암호화, 대칭키 암호화에 대해 간단히 설명해주세요.</summary>
@@ -365,16 +346,16 @@
   <p></p>
 </details>
 
-### 컴파일러
+## 컴파일러
 
 <details>
   <summary>스크립트 언어와 컴파일 언어를 나열하고 차이점을 설명해주세요.</summary>
   </br>
 </details>
 
-## 언어 관련
+# 언어 관련
 
-### Python
+## Python
 
 <details>
   <summary>List와 Tuple의 차이에 대해 설명해주세요.</summary>
@@ -471,7 +452,7 @@
 </details>
 
 <details>
-  <summary>파이썬의 제너레이터(Generator)와 이터레이터(Iterator)의 차이점은 무엇인가요?</summary>
+  <summary></summary>
   </br>
 </details>
 
@@ -486,7 +467,7 @@
 </details>
 
 <details>
-  <summary>리스트 컴프리헨션(List Comprehension)이란 무엇인가요?</summary>
+  <summary></summary>
   </br>
 </details>
 
@@ -578,55 +559,17 @@
   </br>
 </details>
 
-<details>
-  <summary>파이썬의 동적 타이핑(Dynamic Typing)과 정적 타이핑(Static Typing)의 차이는 무엇인가요?</summary>
-  </br>
-</details>
-
-<details>
-  <summary>파이썬의 인터프리터(Interpreter)와 컴파일러(Compiler)의 차이는 무엇인가요?</summary>
-  </br>
-</details>
-
-<details>
-  <summary>파이썬의 컴프리헨션(Comprehension) 종류에 대해 설명해주세요.</summary>
-  </br>
-</details>
-
-<details>
-  <summary>파이썬의 컨텍스트 매니저(Context Manager)와 `with` 구문에 대해 설명해주세요.</summary>
-  </br>
-</details>
-
-<details>
-  <summary>파이썬의 `__slots__`은 무엇이며, 언제 사용하나요?</summary>
-  </br>
-</details>
-
-<details>
-  <summary>파이썬의 `__name__ == '__main__'` 구문은 무엇이며, 왜 사용하나요?</summary>
-  </br>
-</details>
-
-<details>
-  <summary>파이썬의 `None` 타입은 무엇이고 어떻게 사용하나요?</summary>
-  </br>
-</details>
-
-<details>
-  <summary>파이썬에서의 자료형 힌팅(Type Hinting)은 무엇이며, 어떻게 사용하나요?</summary>
-  </br>
-</details>
-
-<details>
-  <summary>파이썬의 프로퍼티(Property)와 게터(Getter), 세터(Setter)에 대해 설명해주세요.</summary>
-  </br>
-</details>
-
-<details>
-  <summary>파이썬의 문서화 도구(Documentation Tools)에 대해 설명해주세요 (예: Sphinx).</summary>
-  </br>
-</details>
+- 파이썬의 동적 타이핑(Dynamic Typing)과 정적 타이핑(Static Typing)의 차이는 무엇인가요?
+- 파이썬의 인터프리터(Interpreter)와 컴파일러(Compiler)의 차이는 무엇인가요?
+- 파이썬의 컴프리헨션(Comprehension) 종류에 대해 설명해주세요.
+- 리스트 컴프리헨션(List Comprehension)이란 무엇인가요?
+- 파이썬의 제너레이터(Generator)와 이터레이터(Iterator)의 차이점은 무엇인가요?
+- 파이썬의 컨텍스트 매니저(Context Manager)와 `with` 구문에 대해 설명해주세요.
+- 파이썬의 `__slots__`은 무엇이며, 언제 사용하나요?
+- 파이썬의 `None` 타입은 무엇이고 어떻게 사용하나요?
+- 파이썬에서의 자료형 힌팅(Type Hinting)은 무엇이며, 어떻게 사용하나요?
+- 파이썬의 프로퍼티(Property)와 게터(Getter), 세터(Setter)에 대해 설명해주세요.
+- 파이썬의 문서화 도구(Documentation Tools)에 대해 설명해주세요 (예: Sphinx).
 
 <details>
   <summary><ins>파이썬의 내장시퀀스에대해서 설명해주세요</ins></summary>
@@ -640,7 +583,7 @@
   <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/프로그래밍 언어/python/fastapi/gunicorn,uvicorn,fastapi 등 프로세스.md">gunicorn,uvicorn,fastapi</a></p>
 </details>
 
-### Go
+## Go
 
 <details>
   <summary><ins>Go의 주요 특징은 무엇인가요?</ins></summary>
@@ -743,8 +686,6 @@
 
 ## 최신기술관련
 
-회사 기술요구사항에 최신기술이 있을경우 이해를 하고 면접을 봐야하기때문에 숙지를 해놓는게 좋다.
-
 ### gRPC
 
 <details>
@@ -832,60 +773,14 @@
   </br>
 </details>
 
-## 기타
-
-### 맡았던 프로젝트의 전반적인 아키텍처구조
-
-#### 참고자료나 영상출처
-
-[백엔드면접팁2](https://www.youtube.com/watch?v=NzlFLoALqYs&t=2s)
-
-### 프로젝트설계에 대한질문
-
-면접시 특정 도메인의 프로젝트를 만들때 설계를 어떻게 할것인지에 대한질문이 올수도있다 이에대한 어느정도 대비를 해두는것이 좋다.
-
-### 트러블 슈팅
-
-<details>
-  <summary>대용량 트래픽에서 장애가 발생하면 어떻게 대응할 것인가요?</summary>
-  </br>
-  <p>캐쉬에서 트래픽이 감당이 안되거나 오류가 나면 DB에서 조회하게끔 서킷브레이커를 걸어서 다른 방법으로 우회하도록 제공할 것입니다.</p>
-</details>
-
 ### 디자인 패턴
 
-언어로 예시코드가 필요함
-<details>
-  <summary>싱글톤 패턴에 대해서 설명해주세요.</summary>
-  </br>
-</details>
-
-<details>
-  <summary>가교 패턴(브릿지 패턴)에 대해서 설명해주세요.</summary>
-  </br>
-</details>
-
-<details>
-  <summary>전략 패턴에 대해서 설명해주세요.</summary>
-  </br>
-</details>
-
-<details>
-  <summary>빌더 패턴에 대해서 설명해주세요.</summary>
-  </br>
-  <p></p>
-</details>
-
-<details>
-  <summary>팩토리 메서드 패턴에 대해서 설명해주세요.</summary>
-  </br>
-  <p></p>
-</details>
-
-<details>
-  <summary>퍼사드 패턴에 대한 예를 들어주세요.</summary>
-  </br>
-</details>
+- 싱글톤 패턴에 대해서 설명해주세요.
+- 가교 패턴(브릿지 패턴)에 대해서 설명해주세요.
+- 전략 패턴에 대해서 설명해주세요.
+- 빌더 패턴에 대해서 설명해주세요.
+- 팩토리 메서드 패턴에 대해서 설명해주세요.
+- 퍼사드 패턴에 대한 예를 들어주세요.
 
 ### 테스트
 
@@ -955,57 +850,6 @@
   </br>
 </details>
 
-### 커뮤니케이션
-
-정답이 없는 질문입니다. 면접관마다 의도하는 답이 다 다를테니 자신만의 방법을 한 번 쯤 생각해보고 답변에 막힘이 없도록 준비합시다.
-
-
-<details>
-  <summary>코드리뷰중 갈등이 있을 경우, 이를 어떻게 해결할 것인가요?</summary>
-  </br>
-  <p></p>
-</details>
-
-<details>
-  <summary>어떤 기술이나 방법론이 좋아보일 때, 이를 어떻게 설득할 것인가요?</summary>
-  </br>
-  <p></p>
-</details>
-
-<details>
-  <summary>일정이 예상보다 지연될 것 같습니다. 어떻게 해결하실 것인가요?</summary>
-  </br>
-  <p></p>
-</details>
-
-<details>
-  <summary>팀원과의 갈등이 있었나요? 있었다면 어떻게 대처했나요?</summary>
-  </br>
-  <p></p>
-</details>
-
-### 기타
-
-<details>
-  <summary>좋은 소스란, 좋은 코드, Clean Code란 어떤것인가요?</summary>
-</details>
-<details>
-</details>
-
-### 개인의 역량
-
-<details>
-  <summary>본인이 수행한 프로젝트 중 상용화 가능한 프로젝트가 있나요?</summary>
-  </br>
-  <p></p>
-</details>
-
-<details>
-  <summary>기술을 습득할 때 어떤 식으로 습득하나요?</summary>
-  </br>
-  <p></p>
-</details>
-
 ## 면접 꿀팁
 
 회사의 기술스택에 관심을 가져보세요. 학습능력이 좋음을 어떤식으로 보여줄 수 있을까요?
@@ -1016,13 +860,7 @@
 
 프로젝트를 수행할 때, 내가 이 기술을 단순히 좋아보여서 사용한 것이 아니라, 많은 고민을 했음을 보여주도록 하세요. 가장 간단한 질문으로는 '왜 그 기술을 사용했나요?', '그 기술 말고 다른 기술은 왜 사용하지 않았나요?', '대체할만한 기술이 있나요?' 등이 있습니다.
 
+#### 참고자료나 영상출처
+
+[백엔드면접팁2](https://www.youtube.com/watch?v=NzlFLoALqYs&t=2s)
 [면접 꿀팁 영상!](https://youtu.be/4XNJFAPnZrY)
-
-
-<!--
-<details>
-<summary></summary>
-</br>
-<p></p>
-</details>
--->
