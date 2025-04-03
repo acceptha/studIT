@@ -16,26 +16,8 @@
 - <a href="./network/ip.md">공인(public) IP와 사설(private) IP의 차이에 대해 설명해주세요.</a>
 - <a href="./network/cdn.md">CDN(Content Delivery Network)이란 무엇이며, 왜 사용하나요?</a>
 - <a href="./network/cdn.md">상태 비저장(stateless) 프로토콜이란 무엇인가요?</a>
-
-<details>
-  <summary><ins>쿠키(Cookie)와 세션(Session)의 차이점에 대해 말해주세요.</ins></summary>
-  </br>
-    <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/7주차/cookie_session.md">쿠키와 세션</a></p>
-</details>
-
-<details>
-  <summary><ins>CORS란 무엇이며 이것에 대해서 설명해보세요.</ins></summary>
-  </br>
-      <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/5주차/cors.md">CORS</a></p>
-</details>
-
-<details>
-  <summary><ins>RESTful과 GRAPHQL이란 무엇인지 + gRPC와 RESTful API의 차이점은 무엇인가요?</ins></summary>
-  </br>
-    <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/7주차/restful_graphql_grpc.md">REST와 GraphQL, gRPC</a></p>
-</details>
-
-- 프론트엔드와 백엔드의 차이에 대해 설명해주세요.
+- <a href="./network/cookie_session.md">쿠키(Cookie)와 세션(Session)의 차이점에 대해 말해주세요.</a>
+- <a href="./network/cors.md">CORS란 무엇이며 이것에 대해서 설명해보세요.</a>
 - 참고자료: [유튜버 쉬운코드 네트워크](https://www.youtube.com/watch?v=oFKYzp6gGfc&list=PLcXyemr8ZeoSGlzhlw4gmpNGicIL4kMcX) 
 
 ## 운영체제
@@ -727,6 +709,12 @@
 <details>
   <summary>gRPC의 버전 관리(versioning) 방법에 대해 설명해주세요.</summary>
   </br>
+</details>
+
+<details>
+  <summary><ins>RESTful과 GRAPHQL이란 무엇인지 + gRPC와 RESTful API의 차이점은 무엇인가요?</ins></summary>
+  </br>
+    <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/네트워크/7주차/restful_graphql_grpc.md">REST와 GraphQL, gRPC</a></p>
 </details>
 
 ### Apache Kafka
