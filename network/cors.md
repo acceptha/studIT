@@ -37,7 +37,7 @@ CORS란 무엇이며 이것에 대해서 설명해보세요.
 
 #### SOP 있을 때 
 
-![Exist SOP](../img/sop_yesSop.png)
+![Exist SOP](img/sop_yesSop.png)
 
 - 위와 같이 출처가 다르기 때문에 일단은 리턴데이터를 받아지지만 
 - 브라우저에서는 origin이 다르기 때문에 해당 데이터에 접근하는 것을 막음

@@ -8,55 +8,29 @@
 
 ## 네트워크
 
-- <a href="./network/connect_url.md">웹 통신의 큰 흐름: https&#58;//www&#46;google&#46;com/ 을 접속할 때 일어나는 일</a>
-- <a href="./network/tcp_udp.md">TCP와 UDP의 각각의 기능과 차이점 대해서 설명해보세요.</a>
-- <a href="./network/osi7_tcpIp.md">OSI 7계층과 TCP/IP 4계층에 대해 설명해보세요.</a>
-- <a href="./network/routing_web.md">라우팅 기능 및 웹 서버 소프트웨어(Apache, Nginx)는 OSI 7계층 중 어디서 작동하는지 설명해보세요.</a>
-- <a href="./network/websocket.md">웹 소켓(WebSocket)이란 무엇이며, 언제 사용하나요?</a>
-- <a href="./network/ip.md">공인(public) IP와 사설(private) IP의 차이에 대해 설명해주세요.</a>
-- <a href="./network/cdn.md">CDN(Content Delivery Network)이란 무엇이며, 왜 사용하나요?</a>
-- <a href="./network/cdn.md">상태 비저장(stateless) 프로토콜이란 무엇인가요?</a>
-- <a href="./network/cookie_session.md">쿠키(Cookie)와 세션(Session)의 차이점에 대해 말해주세요.</a>
-- <a href="./network/cors.md">CORS란 무엇이며 이것에 대해서 설명해보세요.</a>
+- 웹 통신의 큰 흐름: <a href="./network/connect_url.md">https&#58;//www&#46;google&#46;com/을 접속</a>할 때 일어나는 일.
+- <a href="./network/tcp_udp.md">TCP와 UDP</a>의 각각의 기능과 차이점 대해서 설명해보세요.
+- <a href="./network/osi7_tcpIp.md">OSI 7계층과 TCP/IP 4계층</a>에 대해 설명해보세요.
+- <a href="./network/routing_web.md">라우팅 기능 및 웹 서버 소프트웨어(Apache, Nginx)</a>는 OSI 7계층 중 어디서 작동하는지 설명해보세요.
+- <a href="./network/websocket.md">웹 소켓(WebSocket)</a>이란 무엇이며, 언제 사용하나요?
+- <a href="./network/ip.md">공인(public) IP와 사설(private) IP</a>의 차이에 대해 설명해주세요.
+- CDN(<a href="./network/cdn.md">Content Delivery Network</a>)이란 무엇이며, 왜 사용하나요?
+- 상태비저장(<a href="./network/cdn.md">Stateless</a>) 프로토콜이란 무엇인가요?
+- <a href="./network/cookie_session.md">쿠키(Cookie)와 세션(Session)</a>의 차이점에 대해 말해주세요.
+- <a href="./network/cors.md">CORS</a>란 무엇이며 이것에 대해서 설명해보세요.
 - 참고자료: [유튜버 쉬운코드 네트워크](https://www.youtube.com/watch?v=oFKYzp6gGfc&list=PLcXyemr8ZeoSGlzhlw4gmpNGicIL4kMcX) 
 
 ## 운영체제
 
-<details>
-  <summary><ins>프로세스에 대해 설명.</ins></summary>
-  </br>
-    <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/운영체제/프로세스/프로세스.md">프로세스</a></p>
-</details>
+- <a href="./operating_system/process.md">프로세스</a>에 대해 설명해주세요.
+- 컨텍스트 스위칭에 대해 설명해보세요.
+- <a href="./operating_system/thread.md">스레드</a>에 대해 설명해주세요.
+- 멀티프로세스와 멀티스레드에 대해 설명해보세요.
 
 <details>
-  <summary><ins>스레드에 대해 설명.</ins></summary>
+  <summary><ins>스레드에 대해 설명해주세요.</ins></summary>
   </br>
     <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/운영체제/스레드/스레드, 뮤텍스, 세마포어, 데드락.md">스레드에 대해 설명</a></p>
-</details>
-
-<details>
-  <summary>컨텍스트 스위칭에 대해 설명해보세요.</summary>
-  </br>
-</details>
-
-<details>
-  <summary>동기와 비동기의 차이(블로킹, 넌블로킹) / 장단점에 대해 설명해보세요.</summary>
-  </br>
-</details>
-
-<details>
-  <summary>멀티프로세스와 멀티스레드에 대해 설명해보세요.</summary>
-  </br>
-</details>
-
-<details>
-  <summary>Thread-safe 하다는 의미와 설계하는 법을 설명해보세요.</summary>
-  </br>
-</details>
-
-<details>
-  <summary>프로세스 동기화에 대해 설명해보세요.</summary>
-  </br>
 </details>
 
 <details>
@@ -66,55 +40,23 @@
 </details>
 
 <details>
-  <summary>가상 메모리에 대해 설명해보세요.</summary>
-  </br>
-</details>
-
-<details>
-  <summary>캐시의 지역성에 대해 설명해보세요.</summary>
-  </br>
-</details>
-
-<details>
-  <summary>운영체제의 주요 기능은 무엇인가요?</summary>
-  </br>
-</details>
-
-<details>
-  <summary>프로세스 스케줄링이란 무엇이며, 어떤 알고리즘들이 사용되나요?</summary>
-  </br>
-</details>
-
-<details>
   <summary><ins>운영체제에서 시스템콜(system call)과 인터럽트(Interrupt)는 무엇이며, 어떻게 동작하나요?</ins></summary>
   </br>
   <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/운영체제/시스템콜과 인터럽트/시스템콜과 인터럽트.md">시스템콜과 인터럽트</a></p>
 </details>
 
-<details>
-  <summary>부팅 과정에 대해 설명해보세요.</summary>
-  </br>
-</details>
-
-<details>
-  <summary>메모리 단편화(Fragmentation)란 무엇이며, 이를 해결하기 위한 방법은 무엇인가요?</summary>
-  </br>
-</details>
-
-<details>
-  <summary>파일 시스템의 역할과 종류에 대해 설명해보세요.</summary>
-  </br>
-</details>
-
-<details>
-  <summary>I/O 관리와 I/O 스케줄링에 대해 설명해보세요.</summary>
-  </br>
-</details>
-
-<details>
-  <summary>스왑 공간(Swap Space)과 그 역할에 대해 설명해보세요.</summary>
-  </br>
-</details>
+- 프로세스 스케줄링이란 무엇이며, 어떤 알고리즘들이 사용되나요?
+- 동기와 비동기의 차이(블로킹, 넌블로킹) / 장단점에 대해 설명해보세요.
+- Thread-safe 하다는 의미와 설계하는 법을 설명해보세요.
+- 프로세스 동기화에 대해 설명해보세요.
+- 가상 메모리에 대해 설명해보세요.
+- 캐시의 지역성에 대해 설명해보세요.
+- 운영체제의 주요 기능은 무엇인가요?
+- 부팅 과정에 대해 설명해보세요.
+- 메모리 단편화(Fragmentation)란 무엇이며, 이를 해결하기 위한 방법은 무엇인가요?
+- 파일 시스템의 역할과 종류에 대해 설명해보세요.
+- I/O 관리와 I/O 스케줄링에 대해 설명해보세요.
+- 스왑 공간(Swap Space)과 그 역할에 대해 설명해보세요.
 
 ## 데이터베이스
 
