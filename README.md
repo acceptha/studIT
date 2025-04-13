@@ -23,7 +23,7 @@
 ## 운영체제
 
 - <a href="./operating_system/process.md">프로세스</a>에 대해 설명해주세요.
-- 컨텍스트 스위칭에 대해 설명해보세요.
+- <a href="./operating_system/context_swich.md">컨텍스트 스위칭</a>에 대해 설명해보세요.
 - <a href="./operating_system/thread.md">스레드</a>에 대해 설명해주세요.
 - 멀티프로세스와 멀티스레드에 대해 설명해보세요.
 
