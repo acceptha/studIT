@@ -25,19 +25,10 @@
 - <a href="./operating_system/process.md">프로세스</a>에 대해 설명해주세요.
 - <a href="./operating_system/context_swich.md">컨텍스트 스위칭</a>에 대해 설명해보세요.
 - <a href="./operating_system/thread.md">스레드</a>에 대해 설명해주세요.
+
 - 멀티프로세스와 멀티스레드에 대해 설명해보세요.
 
-<details>
-  <summary><ins>스레드에 대해 설명해주세요.</ins></summary>
-  </br>
-    <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/운영체제/스레드/스레드, 뮤텍스, 세마포어, 데드락.md">스레드에 대해 설명</a></p>
-</details>
-
-<details>
-  <summary><ins>교착상태와 기아상태의 해결방법 및 스핀락, 세마포어, 뮤텍스에 대해 설명.</ins></summary>
-  </br>
-    <p><a href="https://github.com/ssr-snj-study/Backend-Interview-Study/blob/main/운영체제/스레드/스레드, 뮤텍스, 세마포어, 데드락.md">스핀락, 세마포어, 뮤텍스에 대해 설명.</a></p>
-</details>
+<summary><ins>교착상태와 기아상태의 해결방법 및 스핀락, 세마포어, 뮤텍스에 대해 설명해주세요.</ins></summary>
 
 <details>
   <summary><ins>운영체제에서 시스템콜(system call)과 인터럽트(Interrupt)는 무엇이며, 어떻게 동작하나요?</ins></summary>
