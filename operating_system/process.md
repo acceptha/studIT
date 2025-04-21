@@ -156,7 +156,7 @@ void *malloc(size_t size);
 // NULL on Error
 ````  
     
-#### free()
+#### <code>free()</code>
 
 - C 언어에서 malloc 등의 함수로 할당된 힙 블록을 free 함수를 호출해서 반환
 - ptr 인자는 할당받은 메모리 블록의 시작 지점을 가리켜야 함
